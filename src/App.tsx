@@ -25,7 +25,7 @@ function App() {
   return (
     <ContextProvider>
       <ThemeProvider theme={theme}>
-        <BrowserRouter basename="/tags/">
+        <BrowserRouter basename="/evs1/">
           <Routes>
             <Route path="/login" element={<LoginForm />} />
             <Route path="/signin" element={<RegisterForm />} />

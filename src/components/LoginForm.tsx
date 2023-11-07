@@ -29,7 +29,7 @@ const LoginForm = () => {
     <div className="flex h-[100vh] justify-center items-center p-0 m-0">
       <div className="flex flex-col w-full md:w-1/2 p-4 justify-center items-center h-full">
         <img
-          src="/tags-color.svg"
+          src="tags-color.svg"
           className="w-72 mb-10 md:hidden md:mb-0 cursor-pointer"
           onClick={() => navigate("/")}
         />
@@ -76,7 +76,7 @@ const LoginForm = () => {
       </div>
       <div className="hidden md:flex w-1/2 h-full justify-center items-center bg-[#0084AB]">
         <img
-          src="/tags-white.svg"
+          src="tags-white.svg"
           className="w-2/3 max-w-md cursor-pointer"
           onClick={() => navigate("/")}
         />
