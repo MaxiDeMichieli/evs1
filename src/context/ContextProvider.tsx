@@ -14,7 +14,7 @@ const defaultContext = {
     destinations: [
       {
         id: 1,
-        image: "/mendoza.avif",
+        image: "mendoza.avif",
         from: "Buenos Aires",
         to: "Mendoza",
         price: "21.200",
@@ -22,7 +22,7 @@ const defaultContext = {
       },
       {
         id: 2,
-        image: "/bariloche.avif",
+        image: "bariloche.avif",
         from: "Buenos Aires",
         to: "San Carlos de Bariloche",
         price: "25.500",
@@ -30,7 +30,7 @@ const defaultContext = {
       },
       {
         id: 3,
-        image: "/iguazu.avif",
+        image: "iguazu.avif",
         from: "Buenos Aires",
         to: "Cataratas del Iguazú",
         price: "26.100",
@@ -38,7 +38,7 @@ const defaultContext = {
       },
       {
         id: 4,
-        image: "/cordoba.avif",
+        image: "cordoba.avif",
         from: "Buenos Aires",
         to: "Córdoba",
         price: "16.700",
@@ -46,7 +46,7 @@ const defaultContext = {
       },
       {
         id: 5,
-        image: "/salta.avif",
+        image: "salta.avif",
         from: "Buenos Aires",
         to: "Salta",
         price: "23.500",
@@ -54,7 +54,7 @@ const defaultContext = {
       },
       {
         id: 6,
-        image: "/ushuaia.avif",
+        image: "ushuaia.avif",
         from: "Buenos Aires",
         to: "Ushuaia",
         price: "29.300",
@@ -62,7 +62,7 @@ const defaultContext = {
       },
       {
         id: 7,
-        image: "/jujuy.avif",
+        image: "jujuy.avif",
         from: "Buenos Aires",
         to: "Jujuy",
         price: "24.100",
@@ -70,7 +70,7 @@ const defaultContext = {
       },
       {
         id: 8,
-        image: "/calafate.avif",
+        image: "calafate.avif",
         from: "Buenos Aires",
         to: "El Calafate",
         price: "28.700",
@@ -78,7 +78,7 @@ const defaultContext = {
       },
       {
         id: 9,
-        image: "/tucuman.avif",
+        image: "tucuman.avif",
         from: "Buenos Aires",
         to: "San Miguel de Tucumán",
         price: "21.500",
@@ -87,37 +87,37 @@ const defaultContext = {
     ],
     excursions: [
       {
-        image: "/exc-ushuaia.avif",
+        image: "exc-ushuaia.avif",
         name: "Excursión Ushuaia",
         price: "23.500",
       },
       {
-        image: "/exc-salta.jpg",
+        image: "exc-salta.jpg",
         name: "Excursión Salta",
         price: "14.900",
       },
       {
-        image: "/exc-bariloche.avif",
+        image: "exc-bariloche.avif",
         name: "Excursión Bariloche",
         price: "22.100",
       },
       {
-        image: "/exc-sanrafael.avif",
+        image: "exc-sanrafael.avif",
         name: "Excursión San Rafael",
         price: "33.700",
       },
       {
-        image: "/exc-calafate.jpg",
+        image: "exc-calafate.jpg",
         name: "Excursión El Calafate",
         price: "26.500",
       },
       {
-        image: "/exc-grutas.avif",
+        image: "exc-grutas.avif",
         name: "Excursión Las Grutas",
         price: "19.600",
       },
       {
-        image: "/exc-merlo.avif",
+        image: "exc-merlo.avif",
         name: "Excursión Merlo",
         price: "18.200",
       },
