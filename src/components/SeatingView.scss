@@ -1,0 +1,57 @@
+.seat {
+  width: 48px;
+  height: 48px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.seat[data-type="executive"] {
+  background-color: #e1db89;
+  color: white;
+  cursor: pointer;
+}
+
+.seat[data-type="bed"] {
+  background-color: #8ce189;
+  color: white;
+  cursor: pointer;
+}
+
+.seat[data-type="semibed"] {
+  background-color: #da89e1;
+  color: white;
+  cursor: pointer;
+}
+
+.seat[data-type="not-available"] {
+  background-color: #5e5e5e;
+  color: white;
+  pointer-events: none;
+}
+
+.seat[data-type="object"] {
+  background-color: #efefef;
+  color: black;
+}
+
+.seat[data-selected="true"] {
+  background-color: #0084ab;
+}
+
+.seat[data-selected="true"]::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  width: 18px;
+  height: 18px;
+  background-color: #00c500;
+  border-radius: 50%;
+}
+
+.seat-reference {
+  cursor: default;
+}
